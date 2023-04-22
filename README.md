@@ -50,4 +50,4 @@ This function takes a list of dictionaries containing dental office data as inpu
 - Add custom category targeting
 - Export data to other formats
 
-I used python 3.1 version but it should work with other versions as well.
+I used python 3.10 version but it should work with other versions as well.
