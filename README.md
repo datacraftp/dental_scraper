@@ -1,5 +1,4 @@
 # dental_scraper
-Sure, here's some documentation for the code you provided:
 
 Overview
 This Python script is a web scraper that fetches data from an API and then saves the data to a SQLite database and a CSV file. The script takes a city name as input, fetches dental office data for that city from the Delta Dental API, and saves the data to a SQLite database and a CSV file.
@@ -21,7 +20,7 @@ The following modules need to be installed in your Python environment in order t
 
 You can install the module using the following command:
 
-python -m pip install requests 
+```python -m pip install requests```
 
 How to use:
 
