@@ -6,29 +6,27 @@ This Python script is a web scraper that fetches data from an API and then saves
 
 The script uses the following modules:
 
-sqlite3 for working with a SQLite database.
-logging for logging error messages to a file.
-csv for working with CSV files.
-urllib.parse for URL encoding.
-json for working with JSON data.
-requests for sending HTTP requests to the Delta Dental API.
+- sqlite3 for working with a SQLite database.
+- logging for logging error messages to a file.
+- csv for working with CSV files.
+- urllib.parse for URL encoding.
+- json for working with JSON data.
+- requests for sending HTTP requests to the Delta Dental API.
+
 Required Modules
 
 The following modules need to be installed in your Python environment in order to run this script:
 
-sqlite3
-logging
-csv
-urllib
-json
-requests
-You can install the modules using the following command:
+- requests
 
-Copy code
-pip install sqlite3 logging csv urllib3 json requests
-How to use
-Download the script to your computer.
-Open the config.json file and change the target_city value to the name of the city you want to get data for.
+You can install the module using the following command:
+
+python -m pip install requests 
+
+How to use:
+
+-Download the script to your computer.
+
 Run the script using the command: python scraper.py
 The script will fetch the data from the Delta Dental API, save it to a SQLite database and a CSV file, and print a message confirming that the data has been saved.
 
